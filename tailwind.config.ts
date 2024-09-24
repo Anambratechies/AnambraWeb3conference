@@ -6,9 +6,15 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
+    container: {
+      padding: "1rem",
+      center : true, 
+    },
     extend: {
       colors: {
+        primary: "9E94FF",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
