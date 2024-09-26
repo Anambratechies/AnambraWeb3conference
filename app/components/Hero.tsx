@@ -21,10 +21,10 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-8">
             <div>
-              <h2 className="text-white text-3xl md:text-4xl text-left">
+              <h2 className="text-white text-2xl md:text-4xl text-left">
                 <span className="font-bold">2nd Nov 2024</span> 9:00 AM
               </h2>
-              <p className="md:text-lg text-2xl text-left">
+              <p className="md:text-lg text-xl text-left">
                 Hollywood event centre, Awka, Anambra
               </p>
             </div>
