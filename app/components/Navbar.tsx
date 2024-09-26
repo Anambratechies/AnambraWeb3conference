@@ -37,58 +37,53 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex">
+        <nav className="hidden lg:flex">
           <Link
             href="#hero"
-            className={`mr-8 ${
-              activeLink === "#hero"
-                ? "border-b-4 border-primary text-primary"
-                : ""
-            }`}
+            className={`mr-8 ${activeLink === "#hero"
+              ? "border-b-4 border-primary text-black font-bold"
+              : ""
+              }`}
             onClick={() => handleNavLinkClick("#hero")}
           >
             HOME
           </Link>
           <Link
             href="#about"
-            className={`mr-8 ${
-              activeLink === "#about"
-                ? "border-b-4 border-primary text-primary"
-                : ""
-            }`}
+            className={`mr-8 ${activeLink === "#about"
+              ? "border-b-4 border-primary text-black font-bold"
+              : ""
+              }`}
             onClick={() => handleNavLinkClick("#about")}
           >
             ABOUT
           </Link>
           <Link
             href="#sponsors"
-            className={`mr-8 ${
-              activeLink === "#sponsors"
-                ? "border-b-4 border-primary text-primary"
-                : ""
-            }`}
+            className={`mr-8 ${activeLink === "#sponsors"
+              ? "border-b-4 border-primary text-black font-bold"
+              : ""
+              }`}
             onClick={() => handleNavLinkClick("#sponsors")}
           >
             SPONSORS
           </Link>
           <Link
             href="#agenda"
-            className={`mr-8 ${
-              activeLink === "#agenda"
-                ? "border-b-4 border-primary text-primary"
-                : ""
-            }`}
+            className={`mr-8 ${activeLink === "#agenda"
+              ? "border-b-4 border-primary text-black font-bold"
+              : ""
+              }`}
             onClick={() => handleNavLinkClick("#agenda")}
           >
             AGENDA
           </Link>
           <Link
             href="#faq"
-            className={`${
-              activeLink === "#faq"
-                ? "border-b-4 border-primary text-primary"
-                : ""
-            }`}
+            className={`${activeLink === "#faq"
+              ? "border-b-4 border-primary text-black font-bold"
+              : "text-bold"
+              }`}
             onClick={() => handleNavLinkClick("#faq")}
           >
             FAQ
@@ -97,7 +92,7 @@ const Navbar = () => {
 
         {/* Register Button (Desktop) */}
         <div className="hidden md:flex bg-primary items-center py-3 px-10 rounded-lg">
-          <Link href="/register" className="text-white text-base">
+          <Link href="/register" className="text-white text-base font-bold">
             Register Here
           </Link>
         </div>
@@ -137,45 +132,40 @@ const Navbar = () => {
           <nav className="flex flex-col space-y-8 text-center">
             <Link
               href="#hero"
-              className={`text-2xl ${
-                activeLink === "#hero" ? "text-primary" : ""
-              }`}
+              className={`text-2xl ${activeLink === "#hero" ? "text-primary" : ""
+                }`}
               onClick={() => handleNavLinkClick("#hero")}
             >
               HOME
             </Link>
             <Link
               href="#about"
-              className={`text-2xl ${
-                activeLink === "#about" ? "text-primary" : ""
-              }`}
+              className={`text-2xl ${activeLink === "#about" ? "text-primary" : ""
+                }`}
               onClick={() => handleNavLinkClick("#about")}
             >
               ABOUT
             </Link>
             <Link
               href="#sponsors"
-              className={`text-2xl ${
-                activeLink === "#sponsors" ? "text-primary" : ""
-              }`}
+              className={`text-2xl ${activeLink === "#sponsors" ? "text-primary" : ""
+                }`}
               onClick={() => handleNavLinkClick("#sponsors")}
             >
               SPONSORS
             </Link>
             <Link
               href="#agenda"
-              className={`text-2xl ${
-                activeLink === "#agenda" ? "text-primary" : ""
-              }`}
+              className={`text-2xl ${activeLink === "#agenda" ? "text-primary" : ""
+                }`}
               onClick={() => handleNavLinkClick("#agenda")}
             >
               AGENDA
             </Link>
             <Link
               href="#faq"
-              className={`text-2xl ${
-                activeLink === "#faq" ? "text-primary" : ""
-              }`}
+              className={`text-2xl ${activeLink === "#faq" ? "text-primary" : ""
+                }`}
               onClick={() => handleNavLinkClick("#faq")}
             >
               FAQ
