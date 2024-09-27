@@ -4,8 +4,8 @@ import Image from "next/image";
 const Agenda = () => {
   return (
     <div className="container lg:p-20 md:p-10  mt-20">
-      <p className="text-primary text-2xl">Explore</p>
-      <h2 className="font-bold text-4xl">Agenda</h2>
+      <p className="text-primary md:text-2xl">Explore</p>
+      <h2 className="font-bold text-3xl md:text-4xl">Agenda</h2>
       <div className="bg-primary p-4 mt-16 w-60 rounded-lg">
         <span className="bg-white font-bold p-2 rounded-lg">Conference</span>
         <span className="font-bold text-white ml-4">Hackathon</span>

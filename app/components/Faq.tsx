@@ -34,12 +34,12 @@ const Faq = () => {
   ];
 
   return (
-    <div className="container p-10 md:p-20 mt-10">
-      <p className="text-primary text-2xl">Learn more</p>
-      <h2 className="font-bold text-4xl">FAQ</h2>
+    <div className="container py-20 md:p-20 mt-10">
+      <p className="text-primary md:text-2xl">Learn more</p>
+      <h2 className="font-bold text-3xl md:text-4xl">FAQ</h2>
       <div className="mt-10">
         {faqData.map((faq, index) => (
-          <div key={index} className="bg-gray-100 p-8 mb-4 rounded-3xl">
+          <div key={index} className="bg-gray-100  p-4 md:p-8 mb-4 rounded-3xl">
             {/* Question Section */}
             <div
               className="flex justify-between items-center cursor-pointer"

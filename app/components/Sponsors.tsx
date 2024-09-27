@@ -7,7 +7,7 @@ const Sponsors = () => {
     <div className="  bg-gray-100">
       <div className=" container lg:p-20 pt-10 mt-20 flex flex-col gap-10">
         <div>
-          <p className="text-primary text-2xl">Meet our</p>
+          <p className="text-primary md:text-2xl">Meet our</p>
           <h2 className="font-bold text-3xl md:text-4xl">
             Sponsors and partners
           </h2>
