@@ -32,13 +32,13 @@ const Hero = () => {
             <div className=" flex flex-col md:flex-row flex-wrap gap-3 pb-10 md:gap-6 md:items-center md:justify-between">
               <div className="flex flex-col gap-3 md:flex-row justify-center md:justify-start">
                 <Link
-                  href=""
+                  href="https://t.co/ePoeaWwl7f"
                   className="text-white text-base bg-primary text-center md:items-center py-3 px-7 rounded-lg "
                 >
                   Register Here
                 </Link>
                 <Link
-                  href=""
+                  href="https://bit.ly/speakerApplicationForm"
                   className="text-black text-base bg-white text-center md:items-center py-3 px-7 rounded-lg"
                 >
                   Apply to Speak

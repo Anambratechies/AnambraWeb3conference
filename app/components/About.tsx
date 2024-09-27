@@ -31,14 +31,14 @@ const About = () => {
           </p>
           <div className="mt-10 gap-4 flex flex-col md:flex-row md:justify-start items-center w-full">
             <Link
-              href=""
+              href="https://t.co/ePoeaWwl7f"
               className="text-white text-base font-bold bg-primary py-4 rounded-lg text-center px-16"
             >
               Register Here
             </Link>
             <div className="flex items-center border-primary border-2 rounded-lg  md:px-16 py-4 px-8">
               <Link
-                href=""
+                href="https://t.co/ePoeaWwl7f"
                 className="flex flex-row items-center justify-center w-full text-black text-base font-bold"
               >
                 Add to calendar

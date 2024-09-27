@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Sponsors = () => {
   return (
-    <div className="  bg-gray-100">
+    <div id="sponsors" className="  bg-gray-100">
       <div className=" container lg:p-20 pt-10 mt-20 flex flex-col gap-10">
         <div>
           <p className="text-primary md:text-2xl">Meet our</p>
