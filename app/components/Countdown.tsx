@@ -77,47 +77,65 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   }
 
   return (
-    <div className="grid grid-cols-2 md:flex md:space-x-4 text-xl items-center justify-center font-bold text-white bg-primary p-14 rounded-3xl">
-      <div className="flex flex-col items-center mb-6 md:mb-0">
-        <span className="text-5xl text-white">
-          {String(timeLeft.months).padStart(2, "0")}
-        </span>
-        <span className="text-black text-base">Months</span>
+    <div className="grid grid-cols-2 md:flex md:space-x-4 text-xl items-center justify-center font-ex font-extrabold text-white bg-primary lg:p-14 md:p-3 p-6 rounded-3xl">
+      <div className="flex  flex-row items-center justify-center lg:mb-6 gap-3 md:mb-0">
+        <div className="flex flex-col">
+          <span className="text-5xl text-white">
+            {String(timeLeft.months).padStart(2, "0")}
+          </span>
+          <span className="text-black text-base">Months</span>
+        </div>
+        <span className="text-black text-4xl">:</span>
       </div>
-      <span className="text-black text-4xl">:</span>
-      <div className="flex flex-col items-center mb-6 md:mb-0">
-        <span className="text-5xl">
-          {String(timeLeft.weeks).padStart(2, "0")}
-        </span>
-        <span className="text-black text-base">Weeks</span>
+
+      <div className="flex  flex-row items-center justify-center lg:mb-6 gap-3 md:mb-0">
+        <div className="flex flex-col">
+          <span className="text-5xl text-white">
+            {String(timeLeft.weeks).padStart(2, "0")}
+          </span>
+          <span className="text-black text-base">Weeks</span>
+        </div>
+        <span className="text-black text-4xl">:</span>
       </div>
-      <span className="text-black text-4xl">:</span>
-      <div className="flex flex-col items-center mb-6 md:mb-0">
-        <span className="text-5xl">
-          {String(timeLeft.days).padStart(2, "0")}
-        </span>
-        <span className="text-black text-base">Days</span>
+
+      <div className="flex l flex-row items-center justify-center lg:mb-6 gap-3 md:mb-0">
+        <div className="flex flex-col">
+          <span className="text-5xl text-white">
+            {String(timeLeft.days).padStart(2, "0")}
+          </span>
+          <span className="text-black text-base">Days</span>
+        </div>
+        <span className="text-black text-4xl">:</span>
       </div>
-      <span className="text-black text-4xl">:</span>
-      <div className="flex flex-col items-center mb-6 md:mb-0">
-        <span className="text-5xl">
-          {String(timeLeft.hours).padStart(2, "0")}
-        </span>
-        <span className="text-black text-base">Hours</span>
+
+      <div className="flex  flex-row items-center justify-center lg:mb-6 gap-3 md:mb-0">
+        <div className="flex flex-col">
+          <span className="text-5xl text-white">
+            {String(timeLeft.hours).padStart(2, "0")}
+          </span>
+          <span className="text-black text-base">Hours</span>
+        </div>
+        <span className="text-black text-4xl">:</span>
       </div>
-      <span className="text-black text-4xl">:</span>
-      <div className="flex flex-col items-center mb-6 md:mb-0">
-        <span className="text-5xl">
-          {String(timeLeft.minutes).padStart(2, "0")}
-        </span>
-        <span className="text-black text-base">Minutes</span>
+
+      <div className="flex  flex-row items-center justify-center lg:mb-6 gap-3 md:mb-0">
+        <div className="flex flex-col">
+          <span className="text-5xl text-white">
+            {String(timeLeft.minutes).padStart(2, "0")}
+          </span>
+          <span className="text-black text-base">Minutes</span>
+        </div>
+        <span className="text-black text-4xl">:</span>
       </div>
-      <span className="text-black text-4xl">:</span>
-      <div className="flex flex-col items-center">
-        <span className="text-5xl">
-          {String(timeLeft.seconds).padStart(2, "0")}
-        </span>
-        <span className="text-black text-base">Seconds</span>
+
+      <div className="flex flex-row items-center justify-center lg:mb-6 gap-3 md:mb-0">
+        <div className="flex flex-col">
+          <span className="text-5xl text-white">
+            {String(timeLeft.seconds).padStart(2, "0")}
+          </span>
+          <span className="text-black text-base">Seconds</span>
+        </div>
+        <span className="text-black text-4xl">:</span>
       </div>
     </div>
   );
