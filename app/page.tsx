@@ -13,7 +13,7 @@ export default function Home() {
       <section className="">
         <About />
       </section>
-      <section id="sponsors">
+      <section className=" ">
         <Sponsors />
       </section>
       <section id="agenda">
