@@ -11,7 +11,7 @@ const Agenda = () => {
         <span className="font-bold text-white ml-4">Hackathon</span>
       </div>
 
-      {/* Agenda sections */}
+      {/* Agenda section */}
       <div className=" flex flex-col gap-4 bg-gray-100 mt-10 px-4 md:px-10 py-6 rounded-3xl">
         {/* Section 1 */}
         <div className="flex flex-col gap-2 md:gap-4 md:flex-row md:py-10 border-b border-gray-300 text-left">
