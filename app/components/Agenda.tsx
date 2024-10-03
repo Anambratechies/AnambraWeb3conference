@@ -167,7 +167,7 @@ const Agenda = () => {
           </div>
         </div>
 
-        {/* Section 6 */}
+        {/* Section 7 */}
         <div className="flex flex-col gap-2 md:gap-4 md:flex-row md:py-10 border-b border-gray-300 text-left">
           <div className="md:w-1/4 flex md:flex-col gap- md:gap-4 flex-col-reverse ">
             <p className="font-bold text-2xl lg:text-4xl">
