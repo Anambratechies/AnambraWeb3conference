@@ -18,18 +18,15 @@ const Faq = () => {
     },
     {
       question: "Need an invitation letter for your visa?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis ante a massa lobortis feugiat. Fusce sit amet dui vitae justo mollis sagittis efficitur eget enim. Sed ac iaculis massa, in feugiat ",
+      answer: "",
     },
     {
       question: "Is the free or are we expected to pay at the venue",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis ante a massa lobortis feugiat. Fusce sit amet dui vitae justo mollis sagittis efficitur eget enim. Sed ac iaculis massa, in feugiat ",
+      answer: " ",
     },
     {
       question: "What if I have more questions?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis ante a massa lobortis feugiat. Fusce sit amet dui vitae justo mollis sagittis efficitur eget enim. Sed ac iaculis massa, in feugiat ",
+      answer: " ",
     },
   ];
 
