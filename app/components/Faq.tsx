@@ -13,8 +13,7 @@ const Faq = () => {
   const faqData = [
     {
       question: "How do I become a speaker?",
-      answer:
-        "We receive a significant volume of requests. You might have a chance if you apply early enough.",
+      answer: ".",
     },
     {
       question: "Need an invitation letter for your visa?",
