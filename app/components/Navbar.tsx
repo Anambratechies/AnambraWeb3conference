@@ -35,8 +35,7 @@ const Navbar = () => {
         <Link href="/">
           <Image src="/logo.svg" alt="Logo" width={100} height={100} />
         </Link>
-
-        {/* Desktop Navigation */}
+        Desktop Navigation
         <nav className="hidden lg:flex">
           <Link
             href="#hero"
@@ -94,7 +93,6 @@ const Navbar = () => {
             FAQ
           </Link>
         </nav>
-
         {/* Register Button (Desktop) */}
         <div className="hidden md:flex bg-primary items-center py-3 px-10 rounded-lg">
           <Link
@@ -104,7 +102,6 @@ const Navbar = () => {
             Register Here
           </Link>
         </div>
-
         {/* Mobile Navigation */}
         <div className="md:hidden">
           <Image
