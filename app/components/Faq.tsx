@@ -29,9 +29,9 @@ const Faq = () => {
       ),
     },
     {
-      question: "Need an invitation letter for your visa?",
+      question: "Need an invitation letter for the Event?",
       answer:
-        "If you require an invitation letter for your visa application, please contact our support team at [anambraweb3conference@gmail.com] with your details, and we will assist you.",
+        "If you require an invitation letter for letter, please contact our support team at anambraweb3conference@gmail.com with your details, and we will assist you.",
     },
     {
       question: "Is the event free, or are we expected to pay at the venue?",
@@ -41,7 +41,7 @@ const Faq = () => {
     {
       question: "What if I have more questions?",
       answer:
-        "If you have any more questions, feel free to reach out to us at [anambraweb3conference@gmail.com], and we'll be happy to assist you.",
+        "If you have any more questions, feel free to reach out to us at anambraweb3conference@gmail.com, and we'll be happy to assist you.",
     },
   ];
 
