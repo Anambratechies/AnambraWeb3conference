@@ -15,7 +15,7 @@ const Faq = () => {
       question: "How do I become a speaker?",
       answer: (
         <>
-          You can apply to become a speaker by filling out this form:{" "}
+          You can apply to become a speaker by filling out this form:
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSflcH2wGS2tYpUyPRoC5Ln0inntvVFAVxfWogWJ16vysPib7w/viewform"
             target="_blank"
